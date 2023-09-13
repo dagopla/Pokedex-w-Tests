@@ -7,8 +7,8 @@ import { CommonModule } from './common/common.module';
 import { SeedModule } from './seed/seed.module';
 
 @Module({
-  imports: [PokemonModule,
-  MongooseModule.forRoot('mongodb://localhost:27017/nest-pokemon'),
+  imports: [
+  MongooseModule.forRoot('mongodb://localhost:27017/nest-pokemon-e2e'),
 
   PokemonModule,
 
@@ -19,5 +19,6 @@ import { SeedModule } from './seed/seed.module';
   ],
   controllers: [AppController],
   providers: [AppService],
+  
 })
 export class AppModule {}

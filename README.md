@@ -15,6 +15,10 @@ npm i -g @nestjs/cli
 ```
  docker compose up -d
 ```
+## Construir base de datos con la semilla
+```
+http://localhost:3000/api/v1/seed
+```
 ## Running the app
 
 ```bash

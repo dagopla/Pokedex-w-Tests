@@ -5,9 +5,9 @@
 
 
 ## Installation
-
+#### Se requiere configurar el archivo __dev.env__ para ejecutar en desarrollo (seguir formato de .env.template)
 ```bash
-$ yarn install
+yarn install
 ```
 ```
 npm i -g @nestjs/cli
@@ -22,8 +22,6 @@ http://localhost:3000/api/v1/seed
 ## Running the app
 
 ```bash
-# development
-$ yarn run start
 
 # watch mode
 $ yarn run start:dev
@@ -33,7 +31,7 @@ $ yarn run start:prod
 ```
 
 ## Test
-
+### Se requiere configurar el archivo __e2e.env__ para los test de integracion
 ```bash
 # unit tests
 $ yarn run test
